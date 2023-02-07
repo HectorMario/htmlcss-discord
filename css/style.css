@@ -250,7 +250,7 @@ header{
     padding: 20px;
     gap: 2px;
     width: 80%;
-    border-bottom: #F5F5F5 1px solid;
+    border-bottom: #7289DA 1px solid;
 
 }
 
@@ -308,9 +308,5 @@ h3, .up h2{
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
-}
-/* colori dei logo e bottone */
-.si{
-    background-color: rgb(152, 112, 118);
 }
 
