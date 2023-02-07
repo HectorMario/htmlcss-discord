@@ -170,7 +170,7 @@ header{
 }
 
 .frog{
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 
 .voice{
@@ -194,7 +194,17 @@ header{
 .green{
     background-image: url(../img/item4-big.svg);
     background-size: 100% 100%;
-    padding: 30% 40%;
+    padding: 30% ;
+}
+
+.pronto{
+    background-image: url(../img/stars.svg);
+    background-size: 100% 100%; padding: 10px;
+
+}
+
+.violet{
+    background-color: #7289DA ;
 }
 
 .up{
