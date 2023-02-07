@@ -30,8 +30,8 @@
     background-image: url(../img/wave.svg);
     background-size: 100% 100%;
     padding: 3%;
-    filter: invert(100%);
-    background-color: #0c0c0c;
+    filter: invert(96%);
+    transform: rotate(180deg);
     
 }
 
