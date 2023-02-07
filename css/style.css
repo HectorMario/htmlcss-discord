@@ -1,0 +1,240 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* variables */
+
+:root{
+    --primary: #255EE9;
+
+}
+
+/* nav */
+
+body{
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: var(--primary);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.tittle{
+    display: flex;
+    width: 80%;
+    gap: 1px;
+}
+
+.logo-up{
+    width: 25%;
+    justify-content: center;
+}
+
+.login{
+    
+    width: 25%;
+    
+}
+
+.center{
+    justify-content: center;
+    display: flex;
+
+}
+
+ul{
+    width: 50%;   
+}
+
+li{
+    display: flex;
+    list-style-type: none;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.niv{
+    color: #fff;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.log{
+    color: black;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 25px;
+    font-size:small;
+}
+
+
+
+
+
+
+/* header */
+header{
+    background-image: url(../img/jumbo.png);
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 9%;
+      
+}
+
+.head{
+    width: 50%;
+    text-align: center;
+}
+
+.lorem, h1{
+    margin-top: 20px;
+    color: #fff;
+}
+
+.apri{
+    display: flex;
+    margin: 20px;
+    gap: 8px;
+    justify-content: center;
+}
+
+.nero{
+    color: #fff;
+    background-color: black;
+}
+
+/* /header */
+
+/* misure e colori dei conteinitori */
+.white{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gray{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 20px;
+}
+
+.blue{
+    height: 200px;
+    width: 50%;
+}
+
+.study{
+    background-image: url(../img/item1.svg);
+    background-size: 100% 100%;
+    padding: 15%;
+}
+
+.pink{
+    display: flex;
+    font-size: 110% ;
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.frog{
+    margin-top: 1rem;
+}
+
+.voice{
+    background-image: url(../img/item2.svg);
+    background-size: 100% 100%;
+    padding: 15%;
+}
+
+.coach{
+    background-image: url(../img/item3.svg);
+    background-size: 100% 100%;
+    padding: 15%;
+}
+
+.reverse{
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+}
+
+.green{
+    background-image: url(../img/item4-big.svg);
+    background-size: 100% 100%;
+    padding: 30% 40%;
+}
+
+.up{
+    background-color: rgb(35, 39, 42);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 2px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.red{
+    background-color: rgb(233, 125, 125);
+    width: 20%;
+    height: 180px;
+}
+
+.aqua{
+    background-color: rgb(31, 172, 165);
+    width: calc(60% / 4 - (8px / 4));
+    height: 180px;
+}
+
+.down{
+    background-color: rgb(35, 39, 42);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.marine{
+    background-color: rgb(81, 148, 126);
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+/* colori dei logo e bottone */
+.si{
+    background-color: rgb(152, 112, 118);
+}
+
