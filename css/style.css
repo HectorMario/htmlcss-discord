@@ -72,6 +72,7 @@ li{
 a{
     text-align: center;
     text-decoration: none;
+    color: #fff;
 }
 
 img{
@@ -106,7 +107,7 @@ header{
     align-items: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 9%;
+    padding: 12%;
       
 }
 
@@ -125,6 +126,11 @@ header{
     margin: 20px;
     gap: 8px;
     justify-content: center;
+}
+
+.big{
+    padding: 20px;
+    border-radius: 40px;
 }
 
 .nero{
@@ -199,12 +205,14 @@ header{
 
 .pronto{
     background-image: url(../img/stars.svg);
-    background-size: 100% 100%; padding: 10px;
+    background-size: 100% 100%;
+    padding: 10px;
 
 }
 
 .violet{
     background-color: #7289DA ;
+    color: #fff;
 }
 
 .up{
@@ -213,19 +221,47 @@ header{
     justify-content: center;
     padding: 20px;
     gap: 2px;
-    border: 1px solid rgb(211, 211, 211);
+
 }
 
 .red{
-    background-color: rgb(233, 125, 125);
+    display: flex;
     width: 20%;
-    height: 180px;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 30px;
 }
 
-.aqua{
-    background-color: rgb(31, 172, 165);
+span{
+    margin: 10% 0;
+    color: #fff;
+}
+
+.ita{ 
+    background-size: cover; 
+    height: 1rem;
+
+}
+
+
+.aqua{ 
+    display: flex;
     width: calc(60% / 4 - (8px / 4));
-    height: 180px;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 2;
+}
+
+.social{
+    display: flex;
+    color: #fff;
+    font-size: large;
+    justify-content: space-between;
+    width: 50%;
+}
+
+h3, .up h2{
+    color: #7289DA;
 }
 
 .down{
@@ -237,7 +273,7 @@ header{
 }
 
 .marine{
-    background-color: rgb(81, 148, 126);
+    
     width: 80%;
     display: flex;
     justify-content: space-between;
